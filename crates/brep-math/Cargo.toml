@@ -1,0 +1,12 @@
+[package]
+name = "brep-math"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+robust.workspace = true
+serde.workspace = true

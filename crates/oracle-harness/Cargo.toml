@@ -1,0 +1,15 @@
+[package]
+name = "oracle-harness"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+brep-geom = { path = "../brep-geom" }
+brep-topo = { path = "../brep-topo" }
+brep-ops = { path = "../brep-ops" }
+serde.workspace = true
+serde_json.workspace = true

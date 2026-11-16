@@ -1,0 +1,12 @@
+[package]
+name = "brep-geom"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+brep-math = { path = "../brep-math" }
+serde.workspace = true
